@@ -1,0 +1,21 @@
+.ui-text {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    flex-shrink: 1;
+    white-space: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.ui-container {
+    flex-direction: row;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+}

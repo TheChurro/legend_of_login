@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="screen" style="flex-grow: 1; justify-content: space-between;">
+        <Style src="GameUI.uss" />
+        <ui:VisualElement name="choice-panel" style="flex-direction: row;">
+            <ui:VisualElement name="choices-container" class="ui-container" style="align-items: center; min-width: 30%; flex-direction: column; border-bottom-width: 4px;">
+                <ui:Label text="Choices" name="choices-label" class="ui-text" style="flex-grow: 0;" />
+                <ui:ListView focusable="True" name="choice-list" item-height="60" style="flex-grow: 1; width: 100%; height: 150px;" />
+            </ui:VisualElement>
+            <ui:Label text="This is the preview of the text you will say once you have choice..." name="choice-preview" class="ui-text ui-container" style="border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 4px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; flex-grow: 1; flex-direction: column;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="dialogue-panel" style="border-top-width: 5px; flex-direction: column; align-items: flex-start;">
+            <ui:Label text="Morgan" name="character-name" class="ui-text" style="background-color: rgba(0, 0, 0, 0.5); padding-left: 1%; padding-right: 1%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-top: 1%;" />
+            <ui:VisualElement name="character-display" class="ui-container" style="flex-grow: 1; align-items: center; flex-direction: row;">
+                <ui:VisualElement name="portrait-container" style="flex-grow: 0; justify-content: flex-start; align-items: center; flex-direction: row; width: 10%; display: flex; visibility: visible;">
+                    <ui:VisualElement name="character-portrait" style="background-color: rgb(255, 0, 0); border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); width: 100%; flex-grow: 0; padding-top: 100%; background-image: url('/Assets/UIERuntime/USS/toggle_on.png');" />
+                </ui:VisualElement>
+                <ui:Label text="This is some test dialogue as we add more and more dialogue this will expand to fill!" name="dialogue" class="ui-text" style="flex-grow: 1; flex-direction: row; white-space: normal; color: rgb(255, 255, 255); flex-shrink: 1; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; border-left-width: 4px; border-right-width: 4px; border-top-width: 4px; border-bottom-width: 4px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

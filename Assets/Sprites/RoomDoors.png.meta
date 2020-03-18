@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: b453827d337f249338a324982d1606cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -971886118424894610
+    second: RoomDoors_0
+  - first:
+      213: 3712637751633178236
+    second: RoomDoors_1
+  - first:
+      213: -4461654704883334726
+    second: RoomDoors_2
+  - first:
+      213: 8458011972273344616
+    second: RoomDoors_3
+  - first:
+      213: 8970348955772445157
+    second: RoomDoors_4
+  - first:
+      213: 8098161753788447874
+    second: RoomDoors_5
+  - first:
+      213: -8421267045956750106
+    second: RoomDoors_6
+  - first:
+      213: -4545560671993868649
+    second: RoomDoors_7
+  - first:
+      213: 5997923607600738556
+    second: RoomDoors_8
+  - first:
+      213: 1255031874743804848
+    second: RoomDoors_9
+  - first:
+      213: -4640285710571672317
+    second: RoomDoors_10
+  - first:
+      213: -2875067960721348275
+    second: RoomDoors_11
+  - first:
+      213: -4114203088789753205
+    second: RoomDoors_12
+  - first:
+      213: 3711295750791137283
+    second: RoomDoors_13
+  - first:
+      213: 5890077058534865785
+    second: RoomDoors_14
+  - first:
+      213: -5967006840266759731
+    second: RoomDoors_15
+  - first:
+      213: 1486693440438967380
+    second: RoomDoors_16
+  - first:
+      213: -2398968229374662267
+    second: RoomDoors_17
+  - first:
+      213: -2162202103687913458
+    second: RoomDoors_18
+  - first:
+      213: -6693204115571463357
+    second: RoomDoors_19
+  - first:
+      213: 3631224036812517352
+    second: RoomDoors_20
+  - first:
+      213: -4357320322078292333
+    second: RoomDoors_21
+  - first:
+      213: -555674903147206211
+    second: RoomDoors_22
+  - first:
+      213: -4989013512432002169
+    second: RoomDoors_23
+  - first:
+      213: 3944578777340969242
+    second: RoomDoors_24
+  - first:
+      213: -3122546246092134665
+    second: RoomDoors_25
+  - first:
+      213: 8200936959686801606
+    second: RoomDoors_26
+  - first:
+      213: 84323304378200530
+    second: RoomDoors_27
+  - first:
+      213: -7924454747700244967
+    second: RoomDoors_28
+  - first:
+      213: 4958380166043999754
+    second: RoomDoors_29
+  - first:
+      213: 5078381735883024570
+    second: RoomDoors_30
+  - first:
+      213: -4490765141024468924
+    second: RoomDoors_31
+  - first:
+      213: -3756545702845867397
+    second: RoomDoors_32
+  - first:
+      213: 9153719354282683369
+    second: RoomDoors_33
+  - first:
+      213: 8869804826502080670
+    second: RoomDoors_34
+  - first:
+      213: -3157881364571866709
+    second: RoomDoors_35
+  - first:
+      213: 3950123968092311022
+    second: RoomDoors_36
+  - first:
+      213: -6657468855540772920
+    second: RoomDoors_37
+  - first:
+      213: 2500506112886360655
+    second: RoomDoors_38
+  - first:
+      213: -8832345190289967520
+    second: RoomDoors_39
+  - first:
+      213: -7713813688193298318
+    second: RoomDoors_40
+  - first:
+      213: -1779019055730044279
+    second: RoomDoors_41
+  - first:
+      213: 6094701704910096514
+    second: RoomDoors_42
+  - first:
+      213: 6115975291939345240
+    second: RoomDoors_43
+  - first:
+      213: 6126019681723409342
+    second: RoomDoors_44
+  - first:
+      213: -6284631574262459295
+    second: RoomDoors_45
+  - first:
+      213: 1298724039587067836
+    second: RoomDoors_46
+  - first:
+      213: -1689846659639812753
+    second: RoomDoors_47
+  - first:
+      213: -2214987191483818750
+    second: RoomDoors_48
+  - first:
+      213: -5402244545595384334
+    second: RoomDoors_49
+  - first:
+      213: 8605613091697563880
+    second: RoomDoors_50
+  - first:
+      213: 438716514890918281
+    second: RoomDoors_51
+  - first:
+      213: 6162031043812943434
+    second: RoomDoors_0
+  - first:
+      213: 382546988716476599
+    second: RoomDoors_1
+  - first:
+      213: -1672588093802889188
+    second: RoomDoors_2
+  - first:
+      213: 8896583644708524948
+    second: RoomDoors_3
+  - first:
+      213: -3643213453438922394
+    second: RoomDoors_4
+  - first:
+      213: 3592847103359709556
+    second: RoomDoors_5
+  - first:
+      213: 2249654696553400609
+    second: RoomDoors_6
+  - first:
+      213: -369134065760284368
+    second: RoomDoors_7
+  - first:
+      213: 6360796714545576893
+    second: RoomDoors_8
+  - first:
+      213: 2070959137281135172
+    second: RoomDoors_9
+  - first:
+      213: 3385955127601403882
+    second: RoomDoors_10
+  - first:
+      213: -5367275422813290530
+    second: RoomDoors_11
+  - first:
+      213: -6088613075648039492
+    second: RoomDoors_12
+  - first:
+      213: -357492708332248793
+    second: RoomDoors_13
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RoomDoors_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a466665269ee38550800000000000000
+      internalID: 6162031043812943434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8475c95741f4500800000000000000
+      internalID: 382546988716476599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10c45d8df5c9c8e0800000000000000
+      internalID: -1672588093802889188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493d66150b3077b70800000000000000
+      internalID: 8896583644708524948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66159daaaa4b07dc0800000000000000
+      internalID: -3643213453438922394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471fb00a76b5cd130800000000000000
+      internalID: 3592847103359709556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129ca5ff601683f10800000000000000
+      internalID: 2249654696553400609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031dcdfd58290eaf0800000000000000
+      internalID: -369134065760284368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbf5f239e6164850800000000000000
+      internalID: 6360796714545576893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442ddf9ec568dbc10800000000000000
+      internalID: 2070959137281135172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7181ebf345dfe20800000000000000
+      internalID: 3385955127601403882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf7783a07b9385b0800000000000000
+      internalID: -5367275422813290530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb53333aaa6e08ba0800000000000000
+      internalID: -6088613075648039492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RoomDoors_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721601e964ee90bf0800000000000000
+      internalID: -357492708332248793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

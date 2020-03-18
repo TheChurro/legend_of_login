@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="flag-drawer" style="flex-direction: row; flex-grow: 1;">
+        <Style src="FlagDrawer.uss" />
+        <uie:EnumField value="Resources" name="instruction" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; min-width: 70px;" />
+        <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="domain" style="min-width: 50px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+        <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="value" style="flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; min-width: 100px;" />
+    </ui:VisualElement>
+</ui:UXML>

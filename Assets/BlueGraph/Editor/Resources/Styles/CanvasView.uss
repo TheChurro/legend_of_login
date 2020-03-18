@@ -1,0 +1,23 @@
+﻿
+.canvasView {
+	flex: 1;
+}
+
+.canvasViewTitle {
+	position: absolute;
+	bottom: 5px;
+	left: 15px;
+	font-size: 50px;
+	opacity: 0.15;
+}
+
+GridBackground {
+	--grid-background-color: #202b3c;
+	--line-color: #283042;
+	--thick-line-color: #3a455e;
+	--spacing: 100;
+}
+
+.canvasView .edge {
+	--selected-edge-color: #FFD244; 
+}

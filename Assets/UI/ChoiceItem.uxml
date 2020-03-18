@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:Label text="Label" name="text" class="ui-text" style="-unity-text-align: middle-center; font-size: 38px;">
+        <Style src="GameUI.uss" />
+    </ui:Label>
+</ui:UXML>

@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="container">
+        <Style src="InteractionVariable.uss" />
+        <ui:VisualElement name="name-type" style="flex-direction: row;">
+            <uie:EnumField value="Center" name="type-selector" style="width: 100px;" />
+            <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="name-field" style="flex-grow: 1; width: 150px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="prop-descr-container" style="flex-direction: row;">
+            <ui:Label text="Value" style="margin-left: 10px; margin-right: 10px; margin-top: 0; margin-bottom: 0; -unity-text-align: middle-left;" />
+            <ui:VisualElement name="prop-container" style="flex-grow: 1;">
+                <uie:IntegerField value="42" name="int-selector" />
+                <uie:FloatField value="42.2" name="float-selector" />
+                <uie:Vector2Field name="vec2-selector" />
+                <uie:Vector3Field name="vec3-selector" />
+                <ui:Toggle name="bool-selector" style="-unity-text-align: upper-left;" />
+                <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="string-selector" multiline="true" />
+                <uie:PropertyField name="interaction-selector" />
+                <uie:PropertyField name="animator-selector" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

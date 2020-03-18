@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
 {
     public InputAction move;
     public InputAction interact;
+    public InputAction quit;
 
     public float speed;
     private InteractionsGraph activeInteraction;
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
         start_pos = this.transform.position;
         interact.started += OnInteract;
         interact.performed += OnEndInteracting;
+        quit.performed += (ctx) => Application.Quit();
     }
 
     public void AddFlagChangeHandler(InteractionsGraph graph) {
@@ -53,10 +55,12 @@ public class PlayerController : MonoBehaviour
     void OnEnable() {
         move.Enable();
         interact.Enable();
+        quit.Enable();
     }
     void OnDisable() {
         move.Disable();
         interact.Disable();
+        quit.Disable();
     }
     // Start is called before the first frame update
     void Start()

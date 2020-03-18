@@ -28462,6 +28462,22 @@ MonoBehaviour:
       m_Groups: 
       m_Action: Interact
       m_Flags: 0
+  quit:
+    m_Name: Quit
+    m_Type: 1
+    m_ExpectedControlType: Button
+    m_Id: 79e2310a-5a1b-4a8d-93ec-a92f564ce478
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: dad43449-5c62-4693-85fc-08ffc44b1506
+      m_Path: <Keyboard>/escape
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Quit
+      m_Flags: 0
   speed: 5
   UIController: {fileID: 1747210292}
   onFlagChangeHandlers: []
@@ -31050,6 +31066,7 @@ MonoBehaviour:
   - id: 10
   - id: 11
   - id: 12
+  - id: 13
   comments: []
   variables:
   - name: Showing Interaction
@@ -31262,10 +31279,10 @@ MonoBehaviour:
           acceptsMultipleConnections: 0
           isInput: 0
           connections:
-          - nodeId: 8e138450-5b65-40b0-9993-c35818cfbf2f
+          - nodeId: 20e0ce9b-1710-4898-aade-387d18eef2c9
             portName: prev
           m_Type: Interactions.Interaction
-        graphPosition: {x: 1062, y: -221.4394}
+        graphPosition: {x: 1009, y: -229}
         flagInteractions:
           flags: []
         Character: {fileID: 0}
@@ -31353,7 +31370,7 @@ MonoBehaviour:
           acceptsMultipleConnections: 1
           isInput: 1
           connections:
-          - nodeId: 04d02f50-48cd-4c08-89eb-acc3c7420107
+          - nodeId: 20e0ce9b-1710-4898-aade-387d18eef2c9
             portName: next
           m_Type: Interactions.Interaction
         - name: next
@@ -31492,6 +31509,34 @@ MonoBehaviour:
           flags: []
         Character: {fileID: 0}
         Dialogue: After that I'm done for the day. (Game end)
+    0000000D:
+      type: {class: DialogueNode, ns: Interactions.Dialogue, asm: Assembly-CSharp}
+      data:
+        id: 20e0ce9b-1710-4898-aade-387d18eef2c9
+        name: Dialogue
+        graph: {fileID: 4042293730923839447}
+        ports:
+        - name: prev
+          fieldName: prev
+          acceptsMultipleConnections: 1
+          isInput: 1
+          connections:
+          - nodeId: 04d02f50-48cd-4c08-89eb-acc3c7420107
+            portName: next
+          m_Type: Interactions.Interaction
+        - name: next
+          fieldName: 
+          acceptsMultipleConnections: 0
+          isInput: 0
+          connections:
+          - nodeId: 8e138450-5b65-40b0-9993-c35818cfbf2f
+            portName: prev
+          m_Type: Interactions.Interaction
+        graphPosition: {x: 1347, y: -439}
+        flagInteractions:
+          flags: []
+        Character: {fileID: 0}
+        Dialogue: (You can exit the game anytime with escape)
 --- !u!61 &4042293730923839448
 BoxCollider2D:
   m_ObjectHideFlags: 0
